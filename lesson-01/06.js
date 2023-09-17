@@ -1,7 +1,7 @@
 let str = "zzzzyzz";
 if (str.includes("y")) {
-  console.log("Нашел")
+  console.log("нашел")
   } else {
-    console.log("Заблудился")
+    console.log("заблудился")
   }
    
