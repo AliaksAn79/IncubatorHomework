@@ -1,4 +1,4 @@
-let passportMarried = {
+const passportMarried = {
     name: "Petr",
     surname: "Petrov",
     address: {
@@ -7,8 +7,7 @@ let passportMarried = {
     }
 };
 
-let passportMarried2 = {...passportMarried, address:{...passportMarried.address}};
-passportMarried2.married = true;
+const passportMarried2 = {...passportMarried, married:true};
 
 console.log(passportMarried);
 console.log(passportMarried2);
