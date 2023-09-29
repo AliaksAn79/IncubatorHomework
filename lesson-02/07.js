@@ -7,7 +7,7 @@ const passportMarried = {
     }
 };
 
-const passportMarried2 = {...passportMarried, married:true};
+const passportMarried2 = {...passportMarried, married: true, address:{...passportMarried.address} };
 
 console.log(passportMarried);
 console.log(passportMarried2);
